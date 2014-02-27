@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://eshiota.github.io/retro-audio-js/ -->
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+
+  <title>Frevo.js - Frevo escrito em Javascript</title>
+
+  <meta name="author" content="Eduardo Shiota Yasuda">
+  <meta name="description" content="Web Audio API-based music player, with piano sheet inspired notations.">
+
+  <link href="assets/css/stylesheets/screen.css" rel="stylesheet">
+<style type="text/css"></style></head>
+
+<body cz-shortcut-listen="true">
+
+<a href="https://github.com/sergiovilar/frevojs" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+  <div id="container">
+    <h1 class="title">Frevo.js</h1>    
+
+    <div class="player-controls" data-player-controls="">
+      <div class="song-controls" data-song-controls="">
+
+		<div class="row">
+			
+			<div class="col-sm-10">
+				<select class="form-control" data-song-select="">
+		          <option value="src/songs/vassourinhas.json">Vassourinhas</option>
+		        </select>
+			</div>
+			
+	        <button type="button" class="btn col-sm-2 btn-primary bt load-bt" data-song-load="">Carregar</button>
+
+		</div>
+        
+      </div>
+
+      <div class="playback-controls" data-playback-controls="">
+        <button type="button" class="btn btn-default bt play-bt" data-play=""><em class="glyphicon glyphicon-play"></em></button>
+        <button type="button" class="btn btn-default bt pause-bt" data-pause=""><em class="glyphicon glyphicon-pause"></em></button>
+        <button type="button" class="btn btn-default bt stop-bt" data-stop=""><em class="glyphicon glyphicon-stop"></em></button>
+      </div>
+
+      <div class="song-info" data-song-info="">
+        <p class="current-song" data-current-song="">Por favor, carregue uma música</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/module.js"></script>
+  <script src="assets/js/namespace.js"></script>
+  <script src="assets/js/extend.js"></script>
+  <script src="assets/js/Events.js"></script>
+  <script src="assets/js/Note.js"></script>
+  <script src="assets/js/Chord.js"></script>
+  <script src="assets/js/Track.js"></script>
+  <script src="assets/js/Oscillator.js"></script>
+  <script src="assets/js/Instrument.js"></script>
+  <script src="assets/js/Song.js"></script>
+  <script src="assets/js/Controls.js"></script>
+  <script src="assets/js/Player.js"></script>
+  <script src="assets/js/application.js"></script>
+
+
+
+</body></html>

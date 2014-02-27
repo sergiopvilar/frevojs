@@ -1,0 +1,37 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,700);
+@import url(http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+body{
+	font-family: "Arial", "Verdana";
+	font-size:13px;
+}
+
+#container{
+
+	width:450px;
+	margin:0 auto;
+	text-align:center;
+
+	h1{
+		background:url(../../img/frevo.jpg) no-repeat;
+		font-family: 'Exo 2', sans-serif;
+		font-size:64px;
+		display: block;
+		width:235px;
+		padding-left:215px;
+		padding-top:45px;
+		min-height: 141px;
+		margin-bottom:20px;
+	}
+
+	.playback-controls{
+		margin:10px 0;
+	}
+	
+}
